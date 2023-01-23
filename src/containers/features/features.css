@@ -1,0 +1,133 @@
+.gpt3__features-heading p {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+
+    margin-top: 2rem;
+}
+
+.gpt3__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* margin:8rem 0 2rem; */
+
+   
+
+}
+
+.gpt3__features-heading, .gpt3__features-container, .gpt3__features-heading p{
+    padding:1rem;
+}
+
+.gpt3__features-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.gpt3__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 460px;
+
+    text-align: left;
+    margin:0 0 0 10rem;
+     
+     /* ff 3.6+ */
+     background:-moz-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 12%, rgba(4, 12, 24, 1) 57%);
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 12%, rgba(4, 12, 24, 1) 57%);
+ 
+     /* opera 11.10+ */
+     background:-o-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 12%, rgba(4, 12, 24, 1) 57%);
+ 
+     /* ie 10+ */
+     background:-ms-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 12%, rgba(4, 12, 24, 1) 57%);
+ 
+     /* global 92%+ browsers support */
+     background:radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 12%, rgba(4, 12, 24, 1) 57%);
+}
+
+.gpt3__features-container {
+    flex: 1.5;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .gpt3__features-container .gpt3__features-container_feature-text{
+    padding-left: 2rem;
+} */
+@media screen and (max-width: 1700px) {
+    .gpt3__features-heading {
+        justify-content: center;
+        margin:0;
+    
+        background:-moz-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+    
+        /* opera 11.10+ */
+        background:-o-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+    
+        /* ie 10+ */
+        background:-ms-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+    
+        /* global 92%+ browsers support */
+        background:radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__features {
+        flex-direction: column;
+
+     
+    }
+
+    .gpt3__features-heading {
+        justify-content: center;
+        margin:0;
+        
+        /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50% 50%, rgba(4, 44, 84, 1) 4%, rgba(4, 12, 24, 1) 32%);
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+w
+
+    .gpt3__features-heading {
+        margin:0;
+        justify-content: flex-start;
+    }
+
+}
