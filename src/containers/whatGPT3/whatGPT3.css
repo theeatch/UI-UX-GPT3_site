@@ -127,7 +127,7 @@
         min-width: 100%;
     }
 
-    .gpt3__whatgpt3 !important{
+    .gpt3__whatgpt3 {
         margin-bottom:4rem; 
     }
 }
